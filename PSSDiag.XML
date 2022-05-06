@@ -1,0 +1,1085 @@
+<?xml version="1.0"?>
+<dsConfig>
+  <DiagMgrInfo>
+    <DiagManagerVersion>15.21.06.23 Build Date:  7/16/2021</DiagManagerVersion>
+    <IntendedPlatform>x64</IntendedPlatform>
+    <IntendedVersion>15</IntendedVersion>
+    <PssdiagConfigDate>5/5/2022 10:23:54 AM</PssdiagConfigDate>
+  </DiagMgrInfo>
+  <Collection casenumber="SRX000000000000" setupver="12.0.0.1001">
+    <Machines>
+      <Machine name=".">
+        <MachineCollectors>
+          <EventlogCollector enabled="true" startup="false" shutdown="true" />
+          <PerfmonCollector enabled="true" maxfilesize="250" pollinginterval="5">
+            <PerfmonCounters>
+              <PerfmonObject name="\LogicalDisk(*)" enabled="true">
+                <PerfmonCounter name="\% Disk Read Time" enabled="true" />
+                <PerfmonCounter name="\% Disk Time" enabled="true" />
+                <PerfmonCounter name="\% Disk Write Time" enabled="true" />
+                <PerfmonCounter name="\% Free Space" enabled="true" />
+                <PerfmonCounter name="\% Idle Time" enabled="true" />
+                <PerfmonCounter name="\Avg. Disk Bytes/Read" enabled="true" />
+                <PerfmonCounter name="\Avg. Disk Bytes/Transfer" enabled="true" />
+                <PerfmonCounter name="\Avg. Disk Bytes/Write" enabled="true" />
+                <PerfmonCounter name="\Avg. Disk Queue Length" enabled="true" />
+                <PerfmonCounter name="\Avg. Disk Read Queue Length" enabled="true" />
+                <PerfmonCounter name="\Avg. Disk sec/Read" enabled="true" />
+                <PerfmonCounter name="\Avg. Disk sec/Transfer" enabled="true" />
+                <PerfmonCounter name="\Avg. Disk sec/Write" enabled="true" />
+                <PerfmonCounter name="\Avg. Disk Write Queue Length" enabled="true" />
+                <PerfmonCounter name="\Current Disk Queue Length" enabled="true" />
+                <PerfmonCounter name="\Disk Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\Disk Read Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\Disk Reads/sec" enabled="true" />
+                <PerfmonCounter name="\Disk Transfers/sec" enabled="true" />
+                <PerfmonCounter name="\Disk Write Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\Disk Writes/sec" enabled="true" />
+                <PerfmonCounter name="\Free Megabytes" enabled="true" />
+                <PerfmonCounter name="\Split IO/Sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\Memory" enabled="true">
+                <PerfmonCounter name="\% Committed Bytes In Use" enabled="true" />
+                <PerfmonCounter name="\Available Bytes" enabled="true" />
+                <PerfmonCounter name="\Available KBytes" enabled="true" />
+                <PerfmonCounter name="\Available MBytes" enabled="true" />
+                <PerfmonCounter name="\Cache Bytes" enabled="true" />
+                <PerfmonCounter name="\Cache Bytes Peak" enabled="true" />
+                <PerfmonCounter name="\Cache Faults/sec" enabled="true" />
+                <PerfmonCounter name="\Commit Limit" enabled="true" />
+                <PerfmonCounter name="\Committed Bytes" enabled="true" />
+                <PerfmonCounter name="\Demand Zero Faults/sec" enabled="true" />
+                <PerfmonCounter name="\Free &amp; Zero Page List Bytes" enabled="true" />
+                <PerfmonCounter name="\Free System Page Table Entries" enabled="true" />
+                <PerfmonCounter name="\Modified Page List Bytes" enabled="true" />
+                <PerfmonCounter name="\Page Faults/sec" enabled="true" />
+                <PerfmonCounter name="\Page Reads/sec" enabled="true" />
+                <PerfmonCounter name="\Page Writes/sec" enabled="true" />
+                <PerfmonCounter name="\Pages Input/sec" enabled="true" />
+                <PerfmonCounter name="\Pages Output/sec" enabled="true" />
+                <PerfmonCounter name="\Pages/sec" enabled="true" />
+                <PerfmonCounter name="\Pool Nonpaged Allocs" enabled="true" />
+                <PerfmonCounter name="\Pool Nonpaged Bytes" enabled="true" />
+                <PerfmonCounter name="\Pool Paged Allocs" enabled="true" />
+                <PerfmonCounter name="\Pool Paged Bytes" enabled="true" />
+                <PerfmonCounter name="\Pool Paged Resident Bytes" enabled="true" />
+                <PerfmonCounter name="\Standby Cache Code Bytes " enabled="true" />
+                <PerfmonCounter name="\Standby Cache Normal Priority Bytes" enabled="true" />
+                <PerfmonCounter name="\Standby Cache Reserve Bytes" enabled="true" />
+                <PerfmonCounter name="\System Cache Resident Bytes" enabled="true" />
+                <PerfmonCounter name="\System Code Resident Bytes" enabled="true" />
+                <PerfmonCounter name="\System Code Total Bytes" enabled="true" />
+                <PerfmonCounter name="\System Driver Resident Bytes" enabled="true" />
+                <PerfmonCounter name="\System Driver Total Bytes" enabled="true" />
+                <PerfmonCounter name="\Transition Faults/sec" enabled="true" />
+                <PerfmonCounter name="\Transition Pages Repurposed/sec" enabled="true" />
+                <PerfmonCounter name="\Write Copies/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Access Methods" enabled="true">
+                <PerfmonCounter name="\AU cleanup batches/sec" enabled="true" />
+                <PerfmonCounter name="\AU cleanups/sec" enabled="true" />
+                <PerfmonCounter name="\By-reference Lob Create Count" enabled="true" />
+                <PerfmonCounter name="\By-reference Lob Use Count" enabled="true" />
+                <PerfmonCounter name="\Count Lob Readahead" enabled="true" />
+                <PerfmonCounter name="\Count Pull In Row" enabled="true" />
+                <PerfmonCounter name="\Count Push Off Row" enabled="true" />
+                <PerfmonCounter name="\Deferred dropped AUs" enabled="true" />
+                <PerfmonCounter name="\Deferred Dropped rowsets" enabled="true" />
+                <PerfmonCounter name="\Dropped rowset cleanups/sec" enabled="true" />
+                <PerfmonCounter name="\Dropped rowsets skipped/sec" enabled="true" />
+                <PerfmonCounter name="\Extent Deallocations/sec" enabled="true" />
+                <PerfmonCounter name="\Extents Allocated/sec" enabled="true" />
+                <PerfmonCounter name="\Failed AU cleanup batches/sec" enabled="true" />
+                <PerfmonCounter name="\Failed leaf page cookie" enabled="true" />
+                <PerfmonCounter name="\Failed tree page cookie" enabled="true" />
+                <PerfmonCounter name="\Forwarded Records/sec" enabled="true" />
+                <PerfmonCounter name="\FreeSpace Page Fetches/sec" enabled="true" />
+                <PerfmonCounter name="\FreeSpace Scans/sec" enabled="true" />
+                <PerfmonCounter name="\Full Scans/sec" enabled="true" />
+                <PerfmonCounter name="\Index Searches/sec" enabled="true" />
+                <PerfmonCounter name="\InSysXact waits/sec" enabled="true" />
+                <PerfmonCounter name="\LobHandle Create Count" enabled="true" />
+                <PerfmonCounter name="\LobHandle Destroy Count" enabled="true" />
+                <PerfmonCounter name="\LobSS Provider Create Count" enabled="true" />
+                <PerfmonCounter name="\LobSS Provider Destroy Count" enabled="true" />
+                <PerfmonCounter name="\LobSS Provider Truncation Count" enabled="true" />
+                <PerfmonCounter name="\Mixed page allocations/sec" enabled="true" />
+                <PerfmonCounter name="\Page compression attempts/sec" enabled="true" />
+                <PerfmonCounter name="\Page Deallocations/sec" enabled="true" />
+                <PerfmonCounter name="\Page Splits/sec" enabled="true" />
+                <PerfmonCounter name="\Pages Allocated/sec" enabled="true" />
+                <PerfmonCounter name="\Pages compressed/sec" enabled="true" />
+                <PerfmonCounter name="\Probe Scans/sec" enabled="true" />
+                <PerfmonCounter name="\Range Scans/sec" enabled="true" />
+                <PerfmonCounter name="\Scan Point Revalidations/sec" enabled="true" />
+                <PerfmonCounter name="\Skipped Ghosted Records/sec" enabled="true" />
+                <PerfmonCounter name="\Table Lock Escalations/sec" enabled="true" />
+                <PerfmonCounter name="\Used leaf page cookie" enabled="true" />
+                <PerfmonCounter name="\Used tree page cookie" enabled="true" />
+                <PerfmonCounter name="\Workfiles Created/sec" enabled="true" />
+                <PerfmonCounter name="\Worktables Created/sec" enabled="true" />
+                <PerfmonCounter name="\Worktables From Cache Base" enabled="true" />
+                <PerfmonCounter name="\Worktables From Cache Ratio" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Advanced Analytics(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Predictions/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Availability Group(*)" enabled="true">
+                <PerfmonCounter name="\Active Hadr Threads" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Availability Replica(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Bytes Received from Replica/sec" enabled="true" />
+                <PerfmonCounter name="\Bytes Sent to Replica/sec" enabled="true" />
+                <PerfmonCounter name="\Bytes Sent to Transport/sec" enabled="true" />
+                <PerfmonCounter name="\Flow Control Time (ms/sec)" enabled="true" />
+                <PerfmonCounter name="\Flow Control/sec" enabled="true" />
+                <PerfmonCounter name="\Receives from Replica/sec" enabled="true" />
+                <PerfmonCounter name="\Resent Messages/sec" enabled="true" />
+                <PerfmonCounter name="\Sends to Replica/sec" enabled="true" />
+                <PerfmonCounter name="\Sends to Transport/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Backup Device" enabled="true">
+                <PerfmonCounter name="\Device Throughput Bytes/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Batch Resp Statistics(*)" enabled="true">
+                <PerfmonCounter name="\Batches &gt;=000000ms &amp; &lt;000001ms" enabled="true" />
+                <PerfmonCounter name="\Batches &gt;=000001ms &amp; &lt;000002ms" enabled="true" />
+                <PerfmonCounter name="\Batches &gt;=000002ms &amp; &lt;000005ms" enabled="true" />
+                <PerfmonCounter name="\Batches &gt;=000005ms &amp; &lt;000010ms" enabled="true" />
+                <PerfmonCounter name="\Batches &gt;=000010ms &amp; &lt;000020ms" enabled="true" />
+                <PerfmonCounter name="\Batches &gt;=000020ms &amp; &lt;000050ms" enabled="true" />
+                <PerfmonCounter name="\Batches &gt;=000050ms &amp; &lt;000100ms" enabled="true" />
+                <PerfmonCounter name="\Batches &gt;=000100ms &amp; &lt;000200ms" enabled="true" />
+                <PerfmonCounter name="\Batches &gt;=000200ms &amp; &lt;000500ms" enabled="true" />
+                <PerfmonCounter name="\Batches &gt;=000500ms &amp; &lt;001000ms" enabled="true" />
+                <PerfmonCounter name="\Batches &gt;=001000ms &amp; &lt;002000ms" enabled="true" />
+                <PerfmonCounter name="\Batches &gt;=002000ms &amp; &lt;005000ms" enabled="true" />
+                <PerfmonCounter name="\Batches &gt;=005000ms &amp; &lt;010000ms" enabled="true" />
+                <PerfmonCounter name="\Batches &gt;=010000ms &amp; &lt;020000ms" enabled="true" />
+                <PerfmonCounter name="\Batches &gt;=020000ms &amp; &lt;050000ms" enabled="true" />
+                <PerfmonCounter name="\Batches &gt;=050000ms &amp; &lt;100000ms" enabled="true" />
+                <PerfmonCounter name="\Batches &gt;=100000ms" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Broker Activation" enabled="true">
+                <PerfmonCounter name="\Stored Procedures Invoked/sec" enabled="true" />
+                <PerfmonCounter name="\Task Limit Reached" enabled="true" />
+                <PerfmonCounter name="\Task Limit Reached/sec" enabled="true" />
+                <PerfmonCounter name="\Tasks Aborted/sec" enabled="true" />
+                <PerfmonCounter name="\Tasks Running" enabled="true" />
+                <PerfmonCounter name="\Tasks Started/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Broker Statistics" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Activation Errors Total" enabled="true" />
+                <PerfmonCounter name="\Broker Transaction Rollbacks" enabled="true" />
+                <PerfmonCounter name="\Corrupted Messages Total" enabled="true" />
+                <PerfmonCounter name="\Dequeued TransmissionQ Msgs/sec" enabled="true" />
+                <PerfmonCounter name="\Dialog Timer Event Count" enabled="true" />
+                <PerfmonCounter name="\Dropped Messages Total" enabled="true" />
+                <PerfmonCounter name="\Enqueued Local Messages Total" enabled="true" />
+                <PerfmonCounter name="\Enqueued Local Messages/sec" enabled="true" />
+                <PerfmonCounter name="\Enqueued Messages Total" enabled="true" />
+                <PerfmonCounter name="\Enqueued Messages/sec" enabled="true" />
+                <PerfmonCounter name="\Enqueued P1 Messages/sec" enabled="true" />
+                <PerfmonCounter name="\Enqueued P10 Messages/sec" enabled="true" />
+                <PerfmonCounter name="\Enqueued P2 Messages/sec" enabled="true" />
+                <PerfmonCounter name="\Enqueued P3 Messages/sec" enabled="true" />
+                <PerfmonCounter name="\Enqueued P4 Messages/sec" enabled="true" />
+                <PerfmonCounter name="\Enqueued P5 Messages/sec" enabled="true" />
+                <PerfmonCounter name="\Enqueued P6 Messages/sec" enabled="true" />
+                <PerfmonCounter name="\Enqueued P7 Messages/sec" enabled="true" />
+                <PerfmonCounter name="\Enqueued P8 Messages/sec" enabled="true" />
+                <PerfmonCounter name="\Enqueued P9 Messages/sec" enabled="true" />
+                <PerfmonCounter name="\Enqueued TransmissionQ Msgs/sec" enabled="true" />
+                <PerfmonCounter name="\Enqueued Transport Msg Frag Tot" enabled="true" />
+                <PerfmonCounter name="\Enqueued Transport Msg Frag/sec" enabled="true" />
+                <PerfmonCounter name="\Enqueued Transport Msgs Total" enabled="true" />
+                <PerfmonCounter name="\Enqueued Transport Msgs/sec" enabled="true" />
+                <PerfmonCounter name="\Forwarded Messages Total" enabled="true" />
+                <PerfmonCounter name="\Forwarded Messages/sec" enabled="true" />
+                <PerfmonCounter name="\Forwarded Msg Byte Total" enabled="true" />
+                <PerfmonCounter name="\Forwarded Msg Byte/sec" enabled="true" />
+                <PerfmonCounter name="\Forwarded Msg Discarded Total" enabled="true" />
+                <PerfmonCounter name="\Forwarded Msgs Discarded/sec" enabled="true" />
+                <PerfmonCounter name="\Forwarded Pending Msg Bytes" enabled="true" />
+                <PerfmonCounter name="\Forwarded Pending Msg Count" enabled="true" />
+                <PerfmonCounter name="\SQL RECEIVE Total" enabled="true" />
+                <PerfmonCounter name="\SQL RECEIVEs/sec" enabled="true" />
+                <PerfmonCounter name="\SQL SEND Total" enabled="true" />
+                <PerfmonCounter name="\SQL SENDs/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Broker TO Statistics" enabled="true">
+                <PerfmonCounter name="\Avg. Length of Batched Writes" enabled="true" />
+                <PerfmonCounter name="\Avg. Length of Batched Writes BS" enabled="true" />
+                <PerfmonCounter name="\Avg. Time Between Batches Base" enabled="true" />
+                <PerfmonCounter name="\Avg. Time Between Batches(ms)" enabled="true" />
+                <PerfmonCounter name="\Avg. Time to Write Batch Base" enabled="true" />
+                <PerfmonCounter name="\Avg. Time to Write Batches (ms)" enabled="true" />
+                <PerfmonCounter name="\Transmission Obj Gets/Sec" enabled="true" />
+                <PerfmonCounter name="\Transmission Obj Set Dirty/Sec" enabled="true" />
+                <PerfmonCounter name="\Transmission Obj Writes/Sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Broker/DBM Transport" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Current Bytes for Recv I/O" enabled="true" />
+                <PerfmonCounter name="\Current Bytes for Send I/O" enabled="true" />
+                <PerfmonCounter name="\Current Msg Frags for Send I/O" enabled="true" />
+                <PerfmonCounter name="\Message Fragment P1 Sends/sec" enabled="true" />
+                <PerfmonCounter name="\Message Fragment P10 Sends/sec" enabled="true" />
+                <PerfmonCounter name="\Message Fragment P2 Sends/sec" enabled="true" />
+                <PerfmonCounter name="\Message Fragment P3 Sends/sec" enabled="true" />
+                <PerfmonCounter name="\Message Fragment P4 Sends/sec" enabled="true" />
+                <PerfmonCounter name="\Message Fragment P5 Sends/sec" enabled="true" />
+                <PerfmonCounter name="\Message Fragment P6 Sends/sec" enabled="true" />
+                <PerfmonCounter name="\Message Fragment P7 Sends/sec" enabled="true" />
+                <PerfmonCounter name="\Message Fragment P8 Sends/sec" enabled="true" />
+                <PerfmonCounter name="\Message Fragment P9 Sends/sec" enabled="true" />
+                <PerfmonCounter name="\Message Fragment Receives/sec" enabled="true" />
+                <PerfmonCounter name="\Message Fragment Sends/sec" enabled="true" />
+                <PerfmonCounter name="\Msg Fragment Recv Size Avg" enabled="true" />
+                <PerfmonCounter name="\Msg Fragment Send Size Avg" enabled="true" />
+                <PerfmonCounter name="\Open Connection Count" enabled="true" />
+                <PerfmonCounter name="\Pending Bytes for Recv I/O" enabled="true" />
+                <PerfmonCounter name="\Pending Bytes for Send I/O" enabled="true" />
+                <PerfmonCounter name="\Pending Msg Frags for Recv I/O" enabled="true" />
+                <PerfmonCounter name="\Pending Msg Frags for Send I/O" enabled="true" />
+                <PerfmonCounter name="\Receive I/O bytes/sec" enabled="true" />
+                <PerfmonCounter name="\Receive I/O Len Avg" enabled="true" />
+                <PerfmonCounter name="\Receive I/Os/sec" enabled="true" />
+                <PerfmonCounter name="\Recv I/O Buffer Copies bytes/sec" enabled="true" />
+                <PerfmonCounter name="\Recv I/O Buffer Copies Count" enabled="true" />
+                <PerfmonCounter name="\Send I/O bytes/sec" enabled="true" />
+                <PerfmonCounter name="\Send I/O Len Avg" enabled="true" />
+                <PerfmonCounter name="\Send I/Os/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Buffer Manager" enabled="true">
+                <PerfmonCounter name="\Background writer pages/sec" enabled="true" />
+                <PerfmonCounter name="\Buffer cache hit ratio" enabled="true" />
+                <PerfmonCounter name="\Checkpoint pages/sec" enabled="true" />
+                <PerfmonCounter name="\Database pages" enabled="true" />
+                <PerfmonCounter name="\Extension allocated pages" enabled="true" />
+                <PerfmonCounter name="\Extension free pages" enabled="true" />
+                <PerfmonCounter name="\Extension in use as percentage" enabled="true" />
+                <PerfmonCounter name="\Extension outstanding IO counter" enabled="true" />
+                <PerfmonCounter name="\Extension page evictions/sec" enabled="true" />
+                <PerfmonCounter name="\Extension page reads/sec" enabled="true" />
+                <PerfmonCounter name="\Extension page unreferenced time" enabled="true" />
+                <PerfmonCounter name="\Extension page writes/sec" enabled="true" />
+                <PerfmonCounter name="\Free list stalls/sec" enabled="true" />
+                <PerfmonCounter name="\Integral Controller Slope" enabled="true" />
+                <PerfmonCounter name="\Lazy writes/sec" enabled="true" />
+                <PerfmonCounter name="\Page life expectancy" enabled="true" />
+                <PerfmonCounter name="\Page lookups/sec" enabled="true" />
+                <PerfmonCounter name="\Page reads/sec" enabled="true" />
+                <PerfmonCounter name="\Page writes/sec" enabled="true" />
+                <PerfmonCounter name="\Readahead pages/sec" enabled="true" />
+                <PerfmonCounter name="\Readahead time/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Buffer Node(*)" enabled="true">
+                <PerfmonCounter name="\Database pages" enabled="true" />
+                <PerfmonCounter name="\Local Node page lookups/sec" enabled="true" />
+                <PerfmonCounter name="\Page life expectancy" enabled="true" />
+                <PerfmonCounter name="\Remote Node page lookups/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Catalog Metadata(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Cache Entries Count" enabled="true" />
+                <PerfmonCounter name="\Cache Entries Pinned Count" enabled="true" />
+                <PerfmonCounter name="\Cache Hit Ratio" enabled="true" />
+                <PerfmonCounter name="\Cache Hit Ratio Base" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:CLR" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\CLR Execution" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Columnstore(*)" enabled="true">
+                <PerfmonCounter name="\Delta Rowgroups Closed" enabled="true" />
+                <PerfmonCounter name="\Delta Rowgroups Compressed" enabled="true" />
+                <PerfmonCounter name="\Delta Rowgroups Created" enabled="true" />
+                <PerfmonCounter name="\Segment Cache Hit Ratio" enabled="true" />
+                <PerfmonCounter name="\Segment Reads/Sec" enabled="true" />
+                <PerfmonCounter name="\Total Delete Buffers Migrated" enabled="true" />
+                <PerfmonCounter name="\Total Merge Policy Evaluations" enabled="true" />
+                <PerfmonCounter name="\Total Rowgroups Compressed" enabled="true" />
+                <PerfmonCounter name="\Total Rowgroups Fit For Merge" enabled="true" />
+                <PerfmonCounter name="\Total Rowgroups Merge Compressed" enabled="true" />
+                <PerfmonCounter name="\Total Source Rowgroups Merged" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Cursor Manager by Type(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Active cursors" enabled="true" />
+                <PerfmonCounter name="\Cache Hit Ratio" enabled="true" />
+                <PerfmonCounter name="\Cache Hit Ratio Base" enabled="true" />
+                <PerfmonCounter name="\Cached Cursor Counts" enabled="true" />
+                <PerfmonCounter name="\Cursor Cache Use Counts/sec" enabled="true" />
+                <PerfmonCounter name="\Cursor memory usage" enabled="true" />
+                <PerfmonCounter name="\Cursor Requests/sec" enabled="true" />
+                <PerfmonCounter name="\Cursor worktable usage" enabled="true" />
+                <PerfmonCounter name="\Number of active cursor plans" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Cursor Manager Total" enabled="true">
+                <PerfmonCounter name="\Async population count" enabled="true" />
+                <PerfmonCounter name="\Cursor conversion rate" enabled="true" />
+                <PerfmonCounter name="\Cursor flushes" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Database Mirroring(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Bytes Received/sec" enabled="true" />
+                <PerfmonCounter name="\Bytes Sent/sec" enabled="true" />
+                <PerfmonCounter name="\Log Bytes Received/sec" enabled="true" />
+                <PerfmonCounter name="\Log Bytes Redone from Cache/sec" enabled="true" />
+                <PerfmonCounter name="\Log Bytes Sent from Cache/sec" enabled="true" />
+                <PerfmonCounter name="\Log Bytes Sent/sec" enabled="true" />
+                <PerfmonCounter name="\Log Compressed Bytes Rcvd/sec" enabled="true" />
+                <PerfmonCounter name="\Log Compressed Bytes Sent/sec" enabled="true" />
+                <PerfmonCounter name="\Log Harden Time (ms)" enabled="true" />
+                <PerfmonCounter name="\Log Remaining for Undo KB" enabled="true" />
+                <PerfmonCounter name="\Log Scanned for Undo KB" enabled="true" />
+                <PerfmonCounter name="\Log Send Flow Control Time (ms)" enabled="true" />
+                <PerfmonCounter name="\Log Send Queue" enabled="true" />
+                <PerfmonCounter name="\Log Send Queue" enabled="true" />
+                <PerfmonCounter name="\Mirrored Write Transactions/sec" enabled="true" />
+                <PerfmonCounter name="\Pages Sent/sec" enabled="true" />
+                <PerfmonCounter name="\Receives/sec" enabled="true" />
+                <PerfmonCounter name="\Redo Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\Redo Queue" enabled="true" />
+                <PerfmonCounter name="\Sends/sec" enabled="true" />
+                <PerfmonCounter name="\Transaction Delay" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Database Replica(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\File Bytes Received/sec" enabled="true" />
+                <PerfmonCounter name="\Log Bytes Received/sec" enabled="true" />
+                <PerfmonCounter name="\Log remaining for undo" enabled="true" />
+                <PerfmonCounter name="\Log Send Queue" enabled="true" />
+                <PerfmonCounter name="\Mirrored Write Transactions/sec" enabled="true" />
+                <PerfmonCounter name="\Recovery Queue" enabled="true" />
+                <PerfmonCounter name="\Redo blocked/sec" enabled="true" />
+                <PerfmonCounter name="\Redo Bytes Remaining" enabled="true" />
+                <PerfmonCounter name="\Redone Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\Total Log requiring undo" enabled="true" />
+                <PerfmonCounter name="\Transaction Delay" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Databases(*)" enabled="true">
+                <PerfmonCounter name="\Active Transactions" enabled="true" />
+                <PerfmonCounter name="\Backup/Restore Throughput/sec" enabled="true" />
+                <PerfmonCounter name="\Bulk Copy Rows/sec" enabled="true" />
+                <PerfmonCounter name="\Bulk Copy Throughput/sec" enabled="true" />
+                <PerfmonCounter name="\Commit table entries" enabled="true" />
+                <PerfmonCounter name="\Data File(s) Size (KB)" enabled="true" />
+                <PerfmonCounter name="\Databases Active parallel redo threads" enabled="true" />
+                <PerfmonCounter name="\DBCC Logical Scan Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\Group Commit Time/sec" enabled="true" />
+                <PerfmonCounter name="\Log Bytes Flushed/sec" enabled="true" />
+                <PerfmonCounter name="\Log Cache Hit Ratio" enabled="true" />
+                <PerfmonCounter name="\Log Cache Hit Ratio Base" enabled="true" />
+                <PerfmonCounter name="\Log Cache Reads/sec" enabled="true" />
+                <PerfmonCounter name="\Log File(s) Size (KB)" enabled="true" />
+                <PerfmonCounter name="\Log File(s) Used Size (KB)" enabled="true" />
+                <PerfmonCounter name="\Log Flush Wait Time" enabled="true" />
+                <PerfmonCounter name="\Log Flush Waits/sec" enabled="true" />
+                <PerfmonCounter name="\Log Flush Write Time (ms)" enabled="true" />
+                <PerfmonCounter name="\Log Flushes/sec" enabled="true" />
+                <PerfmonCounter name="\Log Growths" enabled="true" />
+                <PerfmonCounter name="\Log Pool Cache Misses/sec" enabled="true" />
+                <PerfmonCounter name="\Log Pool Disk Reads/sec" enabled="true" />
+                <PerfmonCounter name="\Log Pool Requests/sec" enabled="true" />
+                <PerfmonCounter name="\Log Shrinks" enabled="true" />
+                <PerfmonCounter name="\Log Truncations" enabled="true" />
+                <PerfmonCounter name="\Log Writer Queue Time/sec" enabled="true" />
+                <PerfmonCounter name="\Log Writer Writes/sec" enabled="true" />
+                <PerfmonCounter name="\Percent Log Used" enabled="true" />
+                <PerfmonCounter name="\PVS in-row diff generated/sec" enabled="true" />
+                <PerfmonCounter name="\PVS in-row diff retrieved/sec" enabled="true" />
+                <PerfmonCounter name="\PVS off-row pages deleted/sec" enabled="true" />
+                <PerfmonCounter name="\PVS off-row record generated/sec" enabled="true" />
+                <PerfmonCounter name="\PVS off-row record retrieved/sec" enabled="true" />
+                <PerfmonCounter name="\Repl. Pending Xacts" enabled="true" />
+                <PerfmonCounter name="\Repl. Trans. Rate" enabled="true" />
+                <PerfmonCounter name="\Shrink Data Movement Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\Tracked transactions/sec" enabled="true" />
+                <PerfmonCounter name="\Transactions/sec" enabled="true" />
+                <PerfmonCounter name="\WPR add lsn bucket miss" enabled="true" />
+                <PerfmonCounter name="\WPR bucket swaps" enabled="true" />
+                <PerfmonCounter name="\WPR stale check bucket miss" enabled="true" />
+                <PerfmonCounter name="\Write Transactions/sec" enabled="true" />
+                <PerfmonCounter name="PVS off-row pages allocated/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Deprecated Features" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Usage" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Exec Statistics(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Distributed Query" enabled="true" />
+                <PerfmonCounter name="\DTC calls" enabled="true" />
+                <PerfmonCounter name="\Extended Procedures" enabled="true" />
+                <PerfmonCounter name="\OLEDB calls" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:External Scripts(*)" enabled="true">
+                <PerfmonCounter name="\Partition By Executions" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:FileTable" enabled="true">
+                <PerfmonCounter name="\Avg time delete FileTable item" enabled="true" />
+                <PerfmonCounter name="\Avg time FileTable enumeration" enabled="true" />
+                <PerfmonCounter name="\Avg time FileTable handle kill" enabled="true" />
+                <PerfmonCounter name="\Avg time move FileTable item" enabled="true" />
+                <PerfmonCounter name="\Avg time per file I/O request" enabled="true" />
+                <PerfmonCounter name="\Avg time per file I/O response" enabled="true" />
+                <PerfmonCounter name="\Avg time rename FileTable item" enabled="true" />
+                <PerfmonCounter name="\Avg time to get FileTable item" enabled="true" />
+                <PerfmonCounter name="\Avg time update FileTable item" enabled="true" />
+                <PerfmonCounter name="\FileTable db operations/sec" enabled="true" />
+                <PerfmonCounter name="\FileTable enumeration reqs/sec" enabled="true" />
+                <PerfmonCounter name="\FileTable file I/O requests/sec" enabled="true" />
+                <PerfmonCounter name="\FileTable file I/O response/sec" enabled="true" />
+                <PerfmonCounter name="\FileTable item delete reqs/sec" enabled="true" />
+                <PerfmonCounter name="\FileTable item get requests/sec" enabled="true" />
+                <PerfmonCounter name="\FileTable item move reqs/sec" enabled="true" />
+                <PerfmonCounter name="\FileTable item rename reqs/sec" enabled="true" />
+                <PerfmonCounter name="\FileTable item update reqs/sec" enabled="true" />
+                <PerfmonCounter name="\FileTable kill handle ops/sec" enabled="true" />
+                <PerfmonCounter name="\FileTable table operations/sec" enabled="true" />
+                <PerfmonCounter name="\Time delete FileTable item BASE" enabled="true" />
+                <PerfmonCounter name="\Time FileTable enumeration BASE" enabled="true" />
+                <PerfmonCounter name="\Time FileTable handle kill BASE" enabled="true" />
+                <PerfmonCounter name="\Time move FileTable item BASE" enabled="true" />
+                <PerfmonCounter name="\Time per file I/O request BASE" enabled="true" />
+                <PerfmonCounter name="\Time per file I/O response BASE" enabled="true" />
+                <PerfmonCounter name="\Time rename FileTable item BASE" enabled="true" />
+                <PerfmonCounter name="\Time to get FileTable item BASE" enabled="true" />
+                <PerfmonCounter name="\Time update FileTable item BASE" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:General Statistics" enabled="true">
+                <PerfmonCounter name="\Active Temp Tables" enabled="true" />
+                <PerfmonCounter name="\Connection resets/sec" enabled="true" />
+                <PerfmonCounter name="\Event Notifications Delayed Drop" enabled="true" />
+                <PerfmonCounter name="\HTTP Authenticated Requests" enabled="true" />
+                <PerfmonCounter name="\Logical Connections" enabled="true" />
+                <PerfmonCounter name="\Logins/sec" enabled="true" />
+                <PerfmonCounter name="\Logouts/sec" enabled="true" />
+                <PerfmonCounter name="\Mars Deadlocks" enabled="true" />
+                <PerfmonCounter name="\Non-atomic yield rate" enabled="true" />
+                <PerfmonCounter name="\Processes blocked" enabled="true" />
+                <PerfmonCounter name="\SOAP Empty Requests" enabled="true" />
+                <PerfmonCounter name="\SOAP Method Invocations" enabled="true" />
+                <PerfmonCounter name="\SOAP Session Initiate Requests" enabled="true" />
+                <PerfmonCounter name="\SOAP Session Terminate Requests" enabled="true" />
+                <PerfmonCounter name="\SOAP SQL Requests" enabled="true" />
+                <PerfmonCounter name="\SOAP WSDL Requests" enabled="true" />
+                <PerfmonCounter name="\SQL Trace IO Provider Lock Waits" enabled="true" />
+                <PerfmonCounter name="\Temp Tables Creation Rate" enabled="true" />
+                <PerfmonCounter name="\Temp Tables For Destruction" enabled="true" />
+                <PerfmonCounter name="\Temp Tables For Destruction" enabled="true" />
+                <PerfmonCounter name="\Tempdb recovery unit id" enabled="true" />
+                <PerfmonCounter name="\Tempdb rowset id" enabled="true" />
+                <PerfmonCounter name="\Trace Event Notifications Queue" enabled="true" />
+                <PerfmonCounter name="\Transactions" enabled="true" />
+                <PerfmonCounter name="\User Connections" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Http Storage(*)" enabled="true">
+                <PerfmonCounter name="\Avg. Bytes/Read" enabled="true" />
+                <PerfmonCounter name="\Avg. Bytes/Transfer" enabled="true" />
+                <PerfmonCounter name="\Avg. Bytes/Write" enabled="true" />
+                <PerfmonCounter name="\Avg. microsec/Read" enabled="true" />
+                <PerfmonCounter name="\Avg. microsec/Read Comp" enabled="true" />
+                <PerfmonCounter name="\Avg. microsec/Transfer" enabled="true" />
+                <PerfmonCounter name="\Avg. microsec/Write" enabled="true" />
+                <PerfmonCounter name="\Avg. microsec/Write Comp" enabled="true" />
+                <PerfmonCounter name="\HTTP Storage I/O Retry/sec" enabled="true" />
+                <PerfmonCounter name="\HTTP Storage IO failed/sec" enabled="true" />
+                <PerfmonCounter name="\Outstanding HTTP Storage I/O" enabled="true" />
+                <PerfmonCounter name="\Read Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\Reads/sec" enabled="true" />
+                <PerfmonCounter name="\Total Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\Transfers/sec" enabled="true" />
+                <PerfmonCounter name="\Write Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\Writes/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Latches" enabled="true">
+                <PerfmonCounter name="\Average Latch Wait Time (ms)" enabled="true" />
+                <PerfmonCounter name="\Average Latch Wait Time Base" enabled="true" />
+                <PerfmonCounter name="\Latch Waits/sec" enabled="true" />
+                <PerfmonCounter name="\Number of SuperLatches" enabled="true" />
+                <PerfmonCounter name="\SuperLatch Demotions/sec" enabled="true" />
+                <PerfmonCounter name="\SuperLatch Promotions/sec" enabled="true" />
+                <PerfmonCounter name="\Total Latch Wait Time (ms)" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Locks(*)" enabled="true">
+                <PerfmonCounter name="\Average Wait Time (ms)" enabled="true" />
+                <PerfmonCounter name="\Average Wait Time Base" enabled="true" />
+                <PerfmonCounter name="\Lock Requests/sec" enabled="true" />
+                <PerfmonCounter name="\Lock Timeouts (timeout &gt; 0)/sec" enabled="true" />
+                <PerfmonCounter name="\Lock Timeouts/sec" enabled="true" />
+                <PerfmonCounter name="\Lock Wait Time (ms)" enabled="true" />
+                <PerfmonCounter name="\Lock Waits/sec" enabled="true" />
+                <PerfmonCounter name="\Number of Deadlocks/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Memory Broker Clerks(*)" enabled="true">
+                <PerfmonCounter name="\Internal benefit" enabled="true" />
+                <PerfmonCounter name="\Memory broker clerk size" enabled="true" />
+                <PerfmonCounter name="\Periodic evictions (pages)" enabled="true" />
+                <PerfmonCounter name="\Pressure evictions (pages/sec)" enabled="true" />
+                <PerfmonCounter name="\Simulation benefit" enabled="true" />
+                <PerfmonCounter name="\Simulation size" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Memory Manager" enabled="true">
+                <PerfmonCounter name="\Connection Memory (KB)" enabled="true" />
+                <PerfmonCounter name="\Database Cache Memory (KB)" enabled="true" />
+                <PerfmonCounter name="\External benefit of memory" enabled="true" />
+                <PerfmonCounter name="\Free Memory (KB)" enabled="true" />
+                <PerfmonCounter name="\Granted Workspace Memory (KB)" enabled="true" />
+                <PerfmonCounter name="\Lock Blocks" enabled="true" />
+                <PerfmonCounter name="\Lock Blocks Allocated" enabled="true" />
+                <PerfmonCounter name="\Lock Memory (KB)" enabled="true" />
+                <PerfmonCounter name="\Lock Owner Blocks" enabled="true" />
+                <PerfmonCounter name="\Lock Owner Blocks Allocated" enabled="true" />
+                <PerfmonCounter name="\Log Pool Memory (KB)" enabled="true" />
+                <PerfmonCounter name="\Maximum Workspace Memory (KB)" enabled="true" />
+                <PerfmonCounter name="\Memory Grants Outstanding" enabled="true" />
+                <PerfmonCounter name="\Memory Grants Pending" enabled="true" />
+                <PerfmonCounter name="\Optimizer Memory (KB)" enabled="true" />
+                <PerfmonCounter name="\Reserved Server Memory (KB)" enabled="true" />
+                <PerfmonCounter name="\SQL Cache Memory (KB)" enabled="true" />
+                <PerfmonCounter name="\Stolen Server Memory (KB)" enabled="true" />
+                <PerfmonCounter name="\Target Server Memory (KB)" enabled="true" />
+                <PerfmonCounter name="\Total Server Memory (KB)" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Memory Node(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Database Node Memory (KB)" enabled="true" />
+                <PerfmonCounter name="\Foreign Node Memory (KB)" enabled="true" />
+                <PerfmonCounter name="\Free Node Memory (KB)" enabled="true" />
+                <PerfmonCounter name="\Stolen Memory Node (KB)" enabled="true" />
+                <PerfmonCounter name="\Target Node Memory" enabled="true" />
+                <PerfmonCounter name="\Total Node Memory" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Plan Cache(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Cache Hit Ratio" enabled="true" />
+                <PerfmonCounter name="\Cache Hit Ratio Base" enabled="true" />
+                <PerfmonCounter name="\Cache Object Counts" enabled="true" />
+                <PerfmonCounter name="\Cache Objects in use" enabled="true" />
+                <PerfmonCounter name="\Cache Pages" enabled="true" />
+                <PerfmonCounter name="\Guided plan executions/sec" enabled="true" />
+                <PerfmonCounter name="\Misguided plan executions/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Query Store(*)" enabled="true">
+                <PerfmonCounter name="\Query Store CPU usage" enabled="true" />
+                <PerfmonCounter name="\Query Store logical reads" enabled="true" />
+                <PerfmonCounter name="\Query Store logical writes" enabled="true" />
+                <PerfmonCounter name="\Query Store physical reads" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Replication Agents(Distribution)" enabled="true">
+                <PerfmonCounter name="\Running" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Replication Agents(Logreader)" enabled="true">
+                <PerfmonCounter name="\Running" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Replication Agents(Merge)" enabled="true">
+                <PerfmonCounter name="\Running" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Replication Agents(Queuereader)" enabled="true">
+                <PerfmonCounter name="\Running" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Replication Agents(Snapshot)" enabled="true">
+                <PerfmonCounter name="\Running" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Replication Dist." enabled="true">
+                <PerfmonCounter name="\Dist:Delivered Cmds/sec" enabled="true" />
+                <PerfmonCounter name="\Dist:Delivered Trans/sec" enabled="true" />
+                <PerfmonCounter name="\Dist:Delivery Latency" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Replication Logreader(*)" enabled="true">
+                <PerfmonCounter name="\Logreader:Delivered Cmds/sec" enabled="true" />
+                <PerfmonCounter name="\Logreader:Delivered Trans/sec" enabled="true" />
+                <PerfmonCounter name="\Logreader:Delivery Latency" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Replication Merge" enabled="true">
+                <PerfmonCounter name="\Conflicts/sec" enabled="true" />
+                <PerfmonCounter name="\Downloaded Changes/sec" enabled="true" />
+                <PerfmonCounter name="\Uploaded Changes/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Replication Snapshot" enabled="true">
+                <PerfmonCounter name="\Snapshot:Delivered Cmds/sec" enabled="true" />
+                <PerfmonCounter name="\Snapshot:Delivered Trans/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Resource Pool Stats(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Active memory grant amount (KB)" enabled="true" />
+                <PerfmonCounter name="\Active memory grants count" enabled="true" />
+                <PerfmonCounter name="\Avg Disk Read IO (ms)" enabled="true" />
+                <PerfmonCounter name="\Avg Disk Read IO (ms) Base" enabled="true" />
+                <PerfmonCounter name="\Avg Disk Write IO (ms)" enabled="true" />
+                <PerfmonCounter name="\Avg Disk Write IO (ms) Base" enabled="true" />
+                <PerfmonCounter name="\Cache memory target (KB)" enabled="true" />
+                <PerfmonCounter name="\Compile memory target (KB)" enabled="true" />
+                <PerfmonCounter name="\CPU control effect %" enabled="true" />
+                <PerfmonCounter name="\CPU usage %" enabled="true" />
+                <PerfmonCounter name="\CPU usage % base" enabled="true" />
+                <PerfmonCounter name="\CPU usage target %" enabled="true" />
+                <PerfmonCounter name="\Disk Read Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\Disk Read IO Issued/sec" enabled="true" />
+                <PerfmonCounter name="\Disk Read IO Throttled/sec" enabled="true" />
+                <PerfmonCounter name="\Disk Read IO/sec" enabled="true" />
+                <PerfmonCounter name="\Disk Write Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\Disk Write IO Issued/sec" enabled="true" />
+                <PerfmonCounter name="\Disk Write IO Throttled/sec" enabled="true" />
+                <PerfmonCounter name="\Disk Write IO/sec" enabled="true" />
+                <PerfmonCounter name="\Max memory (KB)" enabled="true" />
+                <PerfmonCounter name="\Memory grant timeouts/sec" enabled="true" />
+                <PerfmonCounter name="\Memory grants/sec" enabled="true" />
+                <PerfmonCounter name="\Pending memory grants count" enabled="true" />
+                <PerfmonCounter name="\Query exec memory target (KB)" enabled="true" />
+                <PerfmonCounter name="\Target memory (KB)" enabled="true" />
+                <PerfmonCounter name="\Used memory (KB)" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:SQL Errors(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Errors/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:SQL Statistics" enabled="true">
+                <PerfmonCounter name="\Auto-Param Attempts/sec" enabled="true" />
+                <PerfmonCounter name="\Batch Requests/sec" enabled="true" />
+                <PerfmonCounter name="\Failed Auto-Params/sec" enabled="true" />
+                <PerfmonCounter name="\Safe Auto-Params/sec" enabled="true" />
+                <PerfmonCounter name="\SQL Attention rate" enabled="true" />
+                <PerfmonCounter name="\SQL Compilations/sec" enabled="true" />
+                <PerfmonCounter name="\SQL Re-Compilations/sec" enabled="true" />
+                <PerfmonCounter name="\Unsafe Auto-Params/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Transactions" enabled="true">
+                <PerfmonCounter name="\Free Space in tempdb (KB)" enabled="true" />
+                <PerfmonCounter name="\Longest Transaction Running Time" enabled="true" />
+                <PerfmonCounter name="\NonSnapshot Version Transactions" enabled="true" />
+                <PerfmonCounter name="\Snapshot Transactions" enabled="true" />
+                <PerfmonCounter name="\Transactions" enabled="true" />
+                <PerfmonCounter name="\Update conflict ratio" enabled="true" />
+                <PerfmonCounter name="\Update conflict ratio base" enabled="true" />
+                <PerfmonCounter name="\Update Snapshot Transactions" enabled="true" />
+                <PerfmonCounter name="\Version Cleanup rate (KB/s)" enabled="true" />
+                <PerfmonCounter name="\Version Generation rate (KB/s)" enabled="true" />
+                <PerfmonCounter name="\Version Store Size (KB)" enabled="true" />
+                <PerfmonCounter name="\Version Store unit count" enabled="true" />
+                <PerfmonCounter name="\Version Store unit creation" enabled="true" />
+                <PerfmonCounter name="\Version Store unit truncation" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Transactions(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Free Space in tempdb (KB)" enabled="true" />
+                <PerfmonCounter name="\Longest Transaction Running Time" enabled="true" />
+                <PerfmonCounter name="\NonSnapshot Version Transactions" enabled="true" />
+                <PerfmonCounter name="\Snapshot Transactions" enabled="true" />
+                <PerfmonCounter name="\Transactions" enabled="true" />
+                <PerfmonCounter name="\Update conflict ratio" enabled="true" />
+                <PerfmonCounter name="\Update Snapshot Transactions" enabled="true" />
+                <PerfmonCounter name="\Version Cleanup rate (KB/s)" enabled="true" />
+                <PerfmonCounter name="\Version Generation rate (KB/s)" enabled="true" />
+                <PerfmonCounter name="\Version Store Size (KB)" enabled="true" />
+                <PerfmonCounter name="\Version Store unit count" enabled="true" />
+                <PerfmonCounter name="\Version Store unit creation" enabled="true" />
+                <PerfmonCounter name="\Version Store unit truncation" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:User Settable(User counter 1)" enabled="true">
+                <PerfmonCounter name="\Query" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:User Settable(User counter 10)" enabled="true">
+                <PerfmonCounter name="\Query" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:User Settable(User counter 2)" enabled="true">
+                <PerfmonCounter name="\Query" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:User Settable(User counter 3)" enabled="true">
+                <PerfmonCounter name="\Query" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:User Settable(User counter 4)" enabled="true">
+                <PerfmonCounter name="\Query" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:User Settable(User counter 5)" enabled="true">
+                <PerfmonCounter name="\Query" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:User Settable(User counter 6)" enabled="true">
+                <PerfmonCounter name="\Query" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:User Settable(User counter 7)" enabled="true">
+                <PerfmonCounter name="\Query" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:User Settable(User counter 8)" enabled="true">
+                <PerfmonCounter name="\Query" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:User Settable(User counter 9)" enabled="true">
+                <PerfmonCounter name="\Query" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Wait Statistics(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Lock waits" enabled="true" />
+                <PerfmonCounter name="\Log buffer waits" enabled="true" />
+                <PerfmonCounter name="\Log write waits" enabled="true" />
+                <PerfmonCounter name="\Memory grant queue waits" enabled="true" />
+                <PerfmonCounter name="\Network IO waits" enabled="true" />
+                <PerfmonCounter name="\Non-Page latch waits" enabled="true" />
+                <PerfmonCounter name="\Page IO latch waits" enabled="true" />
+                <PerfmonCounter name="\Page latch waits" enabled="true" />
+                <PerfmonCounter name="\Thread-safe memory objects waits" enabled="true" />
+                <PerfmonCounter name="\Transaction ownership waits" enabled="true" />
+                <PerfmonCounter name="\Wait for the worker" enabled="true" />
+                <PerfmonCounter name="\Workspace synchronization waits" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\MSSQL$%s:Workload Group Stats(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Active parallel threads" enabled="true" />
+                <PerfmonCounter name="\Active requests" enabled="true" />
+                <PerfmonCounter name="\Avg Disk msec/Read" enabled="true" />
+                <PerfmonCounter name="\Avg Disk msec/Write" enabled="true" />
+                <PerfmonCounter name="\Blocked tasks" enabled="true" />
+                <PerfmonCounter name="\CPU usage %" enabled="true" />
+                <PerfmonCounter name="\CPU usage % base" enabled="true" />
+                <PerfmonCounter name="\Disk msec/Read Base" enabled="true" />
+                <PerfmonCounter name="\Disk msec/Write Base" enabled="true" />
+                <PerfmonCounter name="\Disk Read Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\Disk Reads/sec" enabled="true" />
+                <PerfmonCounter name="\Disk Violations/sec" enabled="true" />
+                <PerfmonCounter name="\Disk Write Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\Disk Writes/sec" enabled="true" />
+                <PerfmonCounter name="\Max request cpu time (ms)" enabled="true" />
+                <PerfmonCounter name="\Max request memory grant (KB)" enabled="true" />
+                <PerfmonCounter name="\Query optimizations/sec" enabled="true" />
+                <PerfmonCounter name="\Queued requests" enabled="true" />
+                <PerfmonCounter name="\Reduced memory grants/sec" enabled="true" />
+                <PerfmonCounter name="\Requests completed/sec" enabled="true" />
+                <PerfmonCounter name="\Suboptimal plans/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\NBT Connection(*)" enabled="true">
+                <PerfmonCounter name="\Bytes Received/sec" enabled="true" />
+                <PerfmonCounter name="\Bytes Sent/sec" enabled="true" />
+                <PerfmonCounter name="\Bytes Total/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\Network Interface(*)" enabled="true">
+                <PerfmonCounter name="\Bytes Received/sec" enabled="true" />
+                <PerfmonCounter name="\Bytes Sent/sec" enabled="true" />
+                <PerfmonCounter name="\Bytes Total/sec" enabled="true" />
+                <PerfmonCounter name="\Current Bandwidth" enabled="true" />
+                <PerfmonCounter name="\Output Queue Length" enabled="true" />
+                <PerfmonCounter name="\Packets Outbound Discarded" enabled="true" />
+                <PerfmonCounter name="\Packets Outbound Errors" enabled="true" />
+                <PerfmonCounter name="\Packets Received Discarded" enabled="true" />
+                <PerfmonCounter name="\Packets Received Errors" enabled="true" />
+                <PerfmonCounter name="\Packets Received Non-Unicast/sec" enabled="true" />
+                <PerfmonCounter name="\Packets Received Unicast/sec" enabled="true" />
+                <PerfmonCounter name="\Packets Received Unknown" enabled="true" />
+                <PerfmonCounter name="\Packets Received/sec" enabled="true" />
+                <PerfmonCounter name="\Packets Sent Non-Unicast/sec" enabled="true" />
+                <PerfmonCounter name="\Packets Sent Unicast/sec" enabled="true" />
+                <PerfmonCounter name="\Packets Sent/sec" enabled="true" />
+                <PerfmonCounter name="\Packets/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\Objects" enabled="true">
+                <PerfmonCounter name="\Events" enabled="true" />
+                <PerfmonCounter name="\Mutexes" enabled="true" />
+                <PerfmonCounter name="\Processes" enabled="true" />
+                <PerfmonCounter name="\Sections" enabled="true" />
+                <PerfmonCounter name="\Semaphores" enabled="true" />
+                <PerfmonCounter name="\Threads" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\Paging File(*)" enabled="true">
+                <PerfmonCounter name="\% Usage" enabled="true" />
+                <PerfmonCounter name="\% Usage" enabled="true" />
+                <PerfmonCounter name="\% Usage Peak" enabled="true" />
+                <PerfmonCounter name="\% Usage Peak" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\PhysicalDisk(*)" enabled="true">
+                <PerfmonCounter name="\% Disk Read Time" enabled="true" />
+                <PerfmonCounter name="\% Disk Time" enabled="true" />
+                <PerfmonCounter name="\% Disk Write Time" enabled="true" />
+                <PerfmonCounter name="\% Idle Time" enabled="true" />
+                <PerfmonCounter name="\Avg. Disk Bytes/Read" enabled="true" />
+                <PerfmonCounter name="\Avg. Disk Bytes/Transfer" enabled="true" />
+                <PerfmonCounter name="\Avg. Disk Bytes/Write" enabled="true" />
+                <PerfmonCounter name="\Avg. Disk Queue Length" enabled="true" />
+                <PerfmonCounter name="\Avg. Disk Read Queue Length" enabled="true" />
+                <PerfmonCounter name="\Avg. Disk sec/Read" enabled="true" />
+                <PerfmonCounter name="\Avg. Disk sec/Transfer" enabled="true" />
+                <PerfmonCounter name="\Avg. Disk sec/Write" enabled="true" />
+                <PerfmonCounter name="\Avg. Disk Write Queue Length" enabled="true" />
+                <PerfmonCounter name="\Current Disk Queue Length" enabled="true" />
+                <PerfmonCounter name="\Disk Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\Disk Read Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\Disk Reads/sec" enabled="true" />
+                <PerfmonCounter name="\Disk Transfers/sec" enabled="true" />
+                <PerfmonCounter name="\Disk Write Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\Disk Writes/sec" enabled="true" />
+                <PerfmonCounter name="\Split IO/Sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\Process(*)" enabled="true">
+                <PerfmonCounter name="\% Privileged Time" enabled="true" />
+                <PerfmonCounter name="\% Processor Time" enabled="true" />
+                <PerfmonCounter name="\% User Time" enabled="true" />
+                <PerfmonCounter name="\Creating Process ID" enabled="true" />
+                <PerfmonCounter name="\Elapsed Time" enabled="true" />
+                <PerfmonCounter name="\Handle Count" enabled="true" />
+                <PerfmonCounter name="\ID Process" enabled="true" />
+                <PerfmonCounter name="\IO Data Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\IO Data Operations/sec" enabled="true" />
+                <PerfmonCounter name="\IO Other Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\IO Other Operations/sec" enabled="true" />
+                <PerfmonCounter name="\IO Read Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\IO Read Operations/sec" enabled="true" />
+                <PerfmonCounter name="\IO Write Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\IO Write Operations/sec" enabled="true" />
+                <PerfmonCounter name="\Page Faults/sec" enabled="true" />
+                <PerfmonCounter name="\Page File Bytes" enabled="true" />
+                <PerfmonCounter name="\Page File Bytes Peak" enabled="true" />
+                <PerfmonCounter name="\Pool Nonpaged Bytes" enabled="true" />
+                <PerfmonCounter name="\Pool Paged Bytes" enabled="true" />
+                <PerfmonCounter name="\Priority Base" enabled="true" />
+                <PerfmonCounter name="\Private Bytes" enabled="true" />
+                <PerfmonCounter name="\Thread Count" enabled="true" />
+                <PerfmonCounter name="\Virtual Bytes" enabled="true" />
+                <PerfmonCounter name="\Virtual Bytes Peak" enabled="true" />
+                <PerfmonCounter name="\Working Set" enabled="true" />
+                <PerfmonCounter name="\Working Set Peak" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\Processor Information(*)" enabled="true">
+                <PerfmonCounter name="\% C1 Time" enabled="true" />
+                <PerfmonCounter name="\% C2 Time" enabled="true" />
+                <PerfmonCounter name="\% C3 Time" enabled="true" />
+                <PerfmonCounter name="\% DPC Time" enabled="true" />
+                <PerfmonCounter name="\% Idle Time" enabled="true" />
+                <PerfmonCounter name="\% Interrupt Time" enabled="true" />
+                <PerfmonCounter name="\% of Maximum Frequency" enabled="true" />
+                <PerfmonCounter name="\% Performance Limit" enabled="true" />
+                <PerfmonCounter name="\% Priority Time" enabled="true" />
+                <PerfmonCounter name="\% Privileged Time" enabled="true" />
+                <PerfmonCounter name="\% Privileged Utility" enabled="true" />
+                <PerfmonCounter name="\% Processor Performance" enabled="true" />
+                <PerfmonCounter name="\% Processor Time" enabled="true" />
+                <PerfmonCounter name="\% Processor Utility" enabled="true" />
+                <PerfmonCounter name="\% User Time" enabled="true" />
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Average Idle Time" enabled="true" />
+                <PerfmonCounter name="\C1 Transactions/sec" enabled="true" />
+                <PerfmonCounter name="\C2 Transactions/sec" enabled="true" />
+                <PerfmonCounter name="\C3 Transactions/sec" enabled="true" />
+                <PerfmonCounter name="\Clock Interrupts/sec" enabled="true" />
+                <PerfmonCounter name="\DPC Rate" enabled="true" />
+                <PerfmonCounter name="\DPCs Queued/sec" enabled="true" />
+                <PerfmonCounter name="\Idle Break Events/sec" enabled="true" />
+                <PerfmonCounter name="\Interrupts/sec" enabled="true" />
+                <PerfmonCounter name="\Parking Status" enabled="true" />
+                <PerfmonCounter name="\Performance Limit Flags" enabled="true" />
+                <PerfmonCounter name="\Processor Frequency" enabled="true" />
+                <PerfmonCounter name="\Processor State Flags" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\ProcessorPerformance" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Frequency" enabled="true" />
+                <PerfmonCounter name="\Percentage" enabled="true" />
+                <PerfmonCounter name="\Power" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\SQL Server 2018 SQL Server XTP Storage(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Checkpoints Closed" enabled="true" />
+                <PerfmonCounter name="\Checkpoints Completed" enabled="true" />
+                <PerfmonCounter name="\Core Merges Completed" enabled="true" />
+                <PerfmonCounter name="\Merge Policy Evaluations" enabled="true" />
+                <PerfmonCounter name="\Merge Requests Outstanding" enabled="true" />
+                <PerfmonCounter name="\Merges Abandoned" enabled="true" />
+                <PerfmonCounter name="\Merges Installed" enabled="true" />
+                <PerfmonCounter name="\Total Files Merged" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\SQL Server 2018 SQL Server XTP Transaction Log(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Log bytes written/sec" enabled="true" />
+                <PerfmonCounter name="\Log records written/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\SQL Server 2018 XTP Cursors(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Cursor deletes/sec" enabled="true" />
+                <PerfmonCounter name="\Cursor inserts/sec" enabled="true" />
+                <PerfmonCounter name="\Cursor scans started/sec" enabled="true" />
+                <PerfmonCounter name="\Cursor unique violations/sec" enabled="true" />
+                <PerfmonCounter name="\Cursor updates/sec" enabled="true" />
+                <PerfmonCounter name="\Cursor write conflicts/sec" enabled="true" />
+                <PerfmonCounter name="\Dusty corner scan retries/sec (user-issued)" enabled="true" />
+                <PerfmonCounter name="\Expired rows removed/sec" enabled="true" />
+                <PerfmonCounter name="\Expired rows touched/sec" enabled="true" />
+                <PerfmonCounter name="\Rows returned/sec" enabled="true" />
+                <PerfmonCounter name="\Rows touched/sec" enabled="true" />
+                <PerfmonCounter name="\Tentatively-deleted rows touched/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\SQL Server 2018 XTP Databases(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Avg Transaction Segment Large Data Size" enabled="true" />
+                <PerfmonCounter name="\Avg Transaction Segment Size" enabled="true" />
+                <PerfmonCounter name="\Flush Thread 256K Queue Depth" enabled="true" />
+                <PerfmonCounter name="\Flush Thread 4K Queue Depth" enabled="true" />
+                <PerfmonCounter name="\Flush Thread 64K Queue Depth" enabled="true" />
+                <PerfmonCounter name="\Flush Thread Frozen IOs/sec (256K)" enabled="true" />
+                <PerfmonCounter name="\Flush Thread Frozen IOs/sec (4K)" enabled="true" />
+                <PerfmonCounter name="\Flush Thread Frozen IOs/sec (64K)" enabled="true" />
+                <PerfmonCounter name="\IoPagePool256K Free List Count" enabled="true" />
+                <PerfmonCounter name="\IoPagePool256K Total Allocated" enabled="true" />
+                <PerfmonCounter name="\IoPagePool4K Free List Count" enabled="true" />
+                <PerfmonCounter name="\IoPagePool4K Total Allocated" enabled="true" />
+                <PerfmonCounter name="\IoPagePool64K Free List Count" enabled="true" />
+                <PerfmonCounter name="\IoPagePool64K Total Allocated" enabled="true" />
+                <PerfmonCounter name="\MtLog 256K Expand Count" enabled="true" />
+                <PerfmonCounter name="\MtLog 256K IOs Outstanding" enabled="true" />
+                <PerfmonCounter name="\MtLog 256K Page Fill %/Page Flushed" enabled="true" />
+                <PerfmonCounter name="\MtLog 256K Write Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\MtLog 4K Expand Count" enabled="true" />
+                <PerfmonCounter name="\MtLog 4K IOs Outstanding" enabled="true" />
+                <PerfmonCounter name="\MtLog 4K Page Fill %/Page Flushed" enabled="true" />
+                <PerfmonCounter name="\MtLog 4K Write Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\MtLog 64K Expand Count" enabled="true" />
+                <PerfmonCounter name="\MtLog 64K IOs Outstanding" enabled="true" />
+                <PerfmonCounter name="\MtLog 64K Page Fill %/Page Flushed" enabled="true" />
+                <PerfmonCounter name="\MtLog 64K Write Bytes/sec" enabled="true" />
+                <PerfmonCounter name="\Num Merges" enabled="true" />
+                <PerfmonCounter name="\Num Merges/sec" enabled="true" />
+                <PerfmonCounter name="\Num Serializations" enabled="true" />
+                <PerfmonCounter name="\Num Serializations/sec" enabled="true" />
+                <PerfmonCounter name="\Tail Cache Page Count" enabled="true" />
+                <PerfmonCounter name="\Tail Cache Page Count Peak" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\SQL Server 2018 XTP Garbage Collection(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Dusty corner scan retries/sec (GC-issued)" enabled="true" />
+                <PerfmonCounter name="\Main GC work items/sec" enabled="true" />
+                <PerfmonCounter name="\Parallel GC work items/sec" enabled="true" />
+                <PerfmonCounter name="\Rows processed/sec" enabled="true" />
+                <PerfmonCounter name="\Rows processed/sec (first in bucket and removed)" enabled="true" />
+                <PerfmonCounter name="\Rows processed/sec (first in bucket)" enabled="true" />
+                <PerfmonCounter name="\Rows processed/sec (marked for unlink)" enabled="true" />
+                <PerfmonCounter name="\Rows processed/sec (no sweep needed)" enabled="true" />
+                <PerfmonCounter name="\Sweep expired rows removed/sec" enabled="true" />
+                <PerfmonCounter name="\Sweep expired rows touched/sec" enabled="true" />
+                <PerfmonCounter name="\Sweep expiring rows touched/sec" enabled="true" />
+                <PerfmonCounter name="\Sweep rows touched/sec" enabled="true" />
+                <PerfmonCounter name="\Sweep scans started/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\SQL Server 2018 XTP IO Governor(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Insufficient Credits Waits/sec" enabled="true" />
+                <PerfmonCounter name="\Io Issued/sec" enabled="true" />
+                <PerfmonCounter name="\Log Blocks/sec" enabled="true" />
+                <PerfmonCounter name="\Missed Credit Slots" enabled="true" />
+                <PerfmonCounter name="\Stale Rate Object Waits/sec" enabled="true" />
+                <PerfmonCounter name="\Total Rate Objects Published" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\SQL Server 2018 XTP Phantom Processor(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Dusty corner scan retries/sec (Phantom-issued)" enabled="true" />
+                <PerfmonCounter name="\Phantom expired rows removed/sec" enabled="true" />
+                <PerfmonCounter name="\Phantom expired rows touched/sec" enabled="true" />
+                <PerfmonCounter name="\Phantom expiring rows touched/sec" enabled="true" />
+                <PerfmonCounter name="\Phantom rows touched/sec" enabled="true" />
+                <PerfmonCounter name="\Phantom scans started/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\SQL Server 2018 XTP Transactions(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Cascading aborts/sec" enabled="true" />
+                <PerfmonCounter name="\Commit dependencies taken/sec" enabled="true" />
+                <PerfmonCounter name="\Read-only transactions prepared/sec" enabled="true" />
+                <PerfmonCounter name="\Save point refreshes/sec" enabled="true" />
+                <PerfmonCounter name="\Save point rollbacks/sec" enabled="true" />
+                <PerfmonCounter name="\Save points created/sec" enabled="true" />
+                <PerfmonCounter name="\Transaction validation failures/sec" enabled="true" />
+                <PerfmonCounter name="\Transactions aborted by user/sec" enabled="true" />
+                <PerfmonCounter name="\Transactions aborted/sec" enabled="true" />
+                <PerfmonCounter name="\Transactions created/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\XTP Cursors(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Cursor deletes/sec" enabled="true" />
+                <PerfmonCounter name="\Cursor inserts/sec" enabled="true" />
+                <PerfmonCounter name="\Cursor scans started/sec" enabled="true" />
+                <PerfmonCounter name="\Cursor unique violations/sec" enabled="true" />
+                <PerfmonCounter name="\Cursor updates/sec" enabled="true" />
+                <PerfmonCounter name="\Cursor write conflicts/sec" enabled="true" />
+                <PerfmonCounter name="\Dusty corner scan retries/sec (user-issued)" enabled="true" />
+                <PerfmonCounter name="\Expired rows removed/sec" enabled="true" />
+                <PerfmonCounter name="\Expired rows touched/sec" enabled="true" />
+                <PerfmonCounter name="\Rows returned/sec" enabled="true" />
+                <PerfmonCounter name="\Rows touched/sec" enabled="true" />
+                <PerfmonCounter name="\Tentatively-deleted rows touched/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\XTP Garbage Collection(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Dusty corner scan retries/sec (GC-issued)" enabled="true" />
+                <PerfmonCounter name="\Main GC work items/sec" enabled="true" />
+                <PerfmonCounter name="\Parallel GC work items/sec" enabled="true" />
+                <PerfmonCounter name="\Rows processed/sec" enabled="true" />
+                <PerfmonCounter name="\Rows processed/sec (first in bucket and removed)" enabled="true" />
+                <PerfmonCounter name="\Rows processed/sec (first in bucket)" enabled="true" />
+                <PerfmonCounter name="\Rows processed/sec (marked for unlink)" enabled="true" />
+                <PerfmonCounter name="\Rows processed/sec (no sweep needed)" enabled="true" />
+                <PerfmonCounter name="\Sweep expired rows removed/sec" enabled="true" />
+                <PerfmonCounter name="\Sweep expired rows touched/sec" enabled="true" />
+                <PerfmonCounter name="\Sweep expiring rows touched/sec" enabled="true" />
+                <PerfmonCounter name="\Sweep rows touched/sec" enabled="true" />
+                <PerfmonCounter name="\Sweep scans started/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\XTP Phantom Processor(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Dusty corner scan retries/sec (Phantom-issued)" enabled="true" />
+                <PerfmonCounter name="\Phantom expired rows removed/sec" enabled="true" />
+                <PerfmonCounter name="\Phantom expired rows touched/sec" enabled="true" />
+                <PerfmonCounter name="\Phantom expiring rows touched/sec" enabled="true" />
+                <PerfmonCounter name="\Phantom rows touched/sec" enabled="true" />
+                <PerfmonCounter name="\Phantom scans started/sec" enabled="true" />
+              </PerfmonObject>
+              <PerfmonObject name="\XTP Transactions(*)" enabled="true">
+                <PerfmonCounter name="\*" enabled="true" />
+                <PerfmonCounter name="\Cascading aborts/sec" enabled="true" />
+                <PerfmonCounter name="\Commit dependencies taken/sec" enabled="true" />
+                <PerfmonCounter name="\Read-only transactions prepared/sec" enabled="true" />
+                <PerfmonCounter name="\Save point refreshes/sec" enabled="true" />
+                <PerfmonCounter name="\Save point rollbacks/sec" enabled="true" />
+                <PerfmonCounter name="\Save points created/sec" enabled="true" />
+                <PerfmonCounter name="\Transaction validation failures/sec" enabled="true" />
+                <PerfmonCounter name="\Transactions aborted by user/sec" enabled="true" />
+                <PerfmonCounter name="\Transactions aborted/sec" enabled="true" />
+                <PerfmonCounter name="\Transactions created/sec" enabled="true" />
+              </PerfmonObject>
+            </PerfmonCounters>
+          </PerfmonCollector>
+        </MachineCollectors>
+        <Instances>
+          <Instance name="SQL2019" user="" windowsauth="true" ssver="15">
+            <Collectors>
+              <SqldiagCollector enabled="false" startup="false" shutdown="false" />
+              <BlockingCollector shutdown="false" startup="false" maxfilesize="false" />
+              <ProfilerCollector enabled="false" maxfilesize="500" filecount="50" pollinginterval="5">
+                <Events />
+              </ProfilerCollector>
+              <CustomDiagnostics>
+                <CustomGroup name="AlwaysOn Basic Info" enabled="true">
+                  <CustomTask enabled="true" groupname="AlwaysOn Basic Info" taskname="AGConfig_Info" type="TSQL_Script" point="Startup" wait="OnlyOnShutdown" cmd="AlwaysOnDiagScript.sql" pollinginterval="0" />
+                  <CustomTask enabled="true" groupname="AlwaysOn Basic Info" taskname="AlwaysOnHealth_XEL" type="Utility" point="Startup" wait="OnlyOnShutdown" cmd="MultiCopy.cmd &quot;%sspath%Log\AlwaysOn*.xel&quot; &quot;%output_name%_&quot;" pollinginterval="0" />
+                </CustomGroup>
+                <CustomGroup name="MSInfo" enabled="true">
+                  <CustomTask enabled="true" groupname="MSInfo" taskname="MSINFO32" type="Utility" point="Startup" wait="OnlyOnShutdown" cmd="get_msinfo.cmd %server% &quot;%output_path%&quot;" pollinginterval="0" />
+                </CustomGroup>
+                <CustomGroup name="My Custom Collector" enabled="true">
+                  <CustomTask enabled="true" groupname="My Custom Collector" taskname="My Collector Script.sql" type="TSQL_Script" point="Startup" wait="No" cmd="My Collector Script.sql" pollinginterval="0" />
+                </CustomGroup>
+                <CustomGroup name="SQL Server High CPU Perf Stats" enabled="true">
+                  <CustomTask enabled="true" groupname="SQL Server High CPU Perf Stats" taskname="High CPU Perf Stats" type="TSQL_Script" point="Startup" wait="No" cmd="HighCPU_perfstats.sql" pollinginterval="0" />
+                </CustomGroup>
+                <CustomGroup name="SQL Server Perf Stats" enabled="true">
+                  <CustomTask enabled="true" groupname="SQL Server Perf Stats" taskname="Perf Stats " type="TSQL_Script" point="Startup" wait="No" cmd="SQL Server Perf Stats.sql" pollinginterval="0" />
+                  <CustomTask enabled="true" groupname="SQL Server Perf Stats" taskname="Perf Stats Snapshot" type="TSQL_Script" point="Startup" wait="OnlyOnShutdown" cmd="SQL Server Perf Stats Snapshot.sql" pollinginterval="0" />
+                  <CustomTask enabled="true" groupname="SQL Server Perf Stats" taskname="Perf Stats Snapshot" type="TSQL_Script" point="shutdown" wait="OnlyOnShutdown" cmd="SQL Server Perf Stats Snapshot.sql" pollinginterval="0" />
+                  <CustomTask enabled="false" groupname="SQL Server Perf Stats" taskname="Top CPU Query Show Plan XML" type="Utility" point="shutdown" wait="Yes" cmd="TopCPUQueryShowPlanXML.bat 5 %output_name% %server_instance%" pollinginterval="0" />
+                </CustomGroup>
+              </CustomDiagnostics>
+            </Collectors>
+          </Instance>
+        </Instances>
+      </Machine>
+    </Machines>
+  </Collection>
+</dsConfig>
